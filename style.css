@@ -1,0 +1,56 @@
+body{
+	height: 100%;
+	background-color: black;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+	font-family: Arial;
+	color:white;
+}
+
+
+
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+}
+
+a:hover{
+	background-color: red;
+}
+
+#mail {
+    border: 1px solid white;
+    background-color: red;
+}
+.center{
+	text-align: center;
+}
+
+table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    background-color: blue;
+    border-color: 2px solid white;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.contact{
+	background-color: red;
+	width:25%;
+	margin-left:auto;
+	margin-right:auto; 
+	text-align: center;
+}
+
+footer {
+    position: relative;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+    background-color: grey;
+}
